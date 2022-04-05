@@ -1,6 +1,6 @@
 # Agnes-Vandorme
 
-**les routes**
+## **les routes**
 
 1 - page de presentation
 2 - acceuil
@@ -10,7 +10,7 @@
 6 - contact
 7 - mentions speciales
 
-**les composants**
+## **les composants**
 
 **_page de presentation :_**
 

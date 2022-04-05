@@ -7,9 +7,11 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-
       <Routes>
         <Route path="/" element="entrance" />
+      </Routes>
+      {window.location.pathname !== '/' && ('header ')}
+      <Routes>
         <Route path="/home" element="home" />
         <Route path="/biography" element="biography" />
         <Route path="/artist-web-galery" element="artist-web-galery" />
@@ -17,7 +19,7 @@ function App() {
         <Route path="/contact" element="contact" />
         <Route path="/special-mentions" element="special-mentions" />
       </Routes>
-
+      {window.location.pathname !== '/' && ' footer '}
     </div>
   );
 }
