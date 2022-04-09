@@ -2,13 +2,15 @@ import React from 'react';
 import {
   Routes, Route,
 } from 'react-router';
+import Entrance from '../../pages/entrance/Entrance';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element="entrance" />
+        <Route path="/" element="Entrance" />
+
       </Routes>
       {window.location.pathname !== '/' && ('header ')}
       <Routes>
