@@ -3,12 +3,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #b99a84;
+  background-color: #ece0d4;
   font-family: "Libre Baskerville", serif;
   font-weight: 500;
 }
 .title-entrance {
-  color: #ece0d4;
+  color: #b99a84;
   font-family: "Beau Rivage", cursive;
   font-size: 3rem;
   margin-bottom: 5px;
@@ -16,20 +16,22 @@ body {
 .second-title-entrance {
   font-family: "Libre Baskerville", serif;
   font-weight: 500;
-  color: #ece0d4;
+  color: #b99a84;
   margin-top: 5px;
 }
 .title-container {
+  height: 100%;
+  width: 100%;
   width: 300px;
-  color: #ece0d4;
-  background-color: #b99a84;
+  color: #b99a84;
+  background-color: #ece0d4;
   margin-top: 150px;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 .separation {
-  background-color: #ece0d4;
+  background-color: #b99a84;
   margin-left: 50%;
   width: 1px;
   height: 60px;
@@ -37,10 +39,10 @@ body {
 .enter-button {
   font-family: "Libre Baskerville", serif;
   font-weight: 800;
-  color: #ece0d4;
+  color: #b99a84;
   margin-top: 20%;
-  background-color: #b99a84;
-  border: 1px solid #ece0d4;
+  background-color: #ece0d4;
+  border: 1px solid #b99a84;
   width: 50%;
   height: 30px;
   margin-left: 25%;
