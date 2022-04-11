@@ -1,13 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playfair+Display&display=swap");
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #ece0d4;
   font-family: "Libre Baskerville", serif;
   font-weight: 500;
 }
 .title-entrance {
+  display: flex;
+  justify-content: center;
   color: #b99a84;
   font-family: "Beau Rivage", cursive;
   font-size: 3rem;

@@ -18,7 +18,7 @@ function Biography() {
         Depuis 40 ans, la vibration des couleurs à travers
         l&#39;enrichissement personnel grâce à une immersion dans
         différentes cultures comme Tahiti, le Maroc, Nouméa,
-        lui a permis d&#39;être une coloriste hors pair.
+        lui ont permis d&#39;être une coloriste hors pair.
         <br />
         <br />
         Les échanges et découvertes lui ont permis une évolution

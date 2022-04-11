@@ -1,4 +1,5 @@
 import React from 'react';
+import './artistWebGalery.scss';
 
 function ArtistWebGalery() {
   return (
