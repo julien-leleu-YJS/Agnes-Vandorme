@@ -6,23 +6,33 @@ function Biography() {
     <div className="biography-container">
       <h1 className="title-biography">Agnès Vandorme</h1>
       <p className="text-biography">
-        depuis toujours Agnès a scruté le monde et capturé des images qui ont
-        déclenché une sensibilité genèse de sa créativité .
-        sensible aux sons et à la musique autant qu'à la peinture,
+        Agnès Vandorme a scruté le monde et capturé des images qui ont
+        déclenché une sensibilité, genèse de sa créativité .
+        <br />
+        <br />
+        sensible aux sons et à la musique autant qu&#39;à la peinture,
         elle trouvera
         le point de fusion entre couleur, son , toucher .
+        <br />
+        <br />
         Depuis 40 ans, la vibration des couleurs à travers
-        l'enrichissement personnel grâce à une immersion dans
+        l&#39;enrichissement personnel grâce à une immersion dans
         différentes cultures comme Tahiti, le Maroc, Nouméa,
-        lui a permis d'être une coloriste hors pair.
+        lui a permis d&#39;être une coloriste hors pair.
+        <br />
+        <br />
         Les échanges et découvertes lui ont permis une évolution
-        artistique dans le cadre de mêler ressenti et expression
-        instantanées de cette dernière.
-        Chaque tableau est un morceau d'elle-même.
-        c'est dans son atelier qu'elle appelle le Laboratoire,
-        qu'elle invente, mélange pigments et création de produit,
+        artistique pour mêler ressenti et expression
+        instantanées.
+        <br />
+        <br />
+        Chaque tableau est un morceau d&#39;elle-même.
+        <br />
+        c&#39;est dans son atelier qu&#39;elle appelle le Laboratoire,
+        qu&#39;elle invente, mélange pigments et création de produit,
         pour donner naissance à des œuvres uniques .
       </p>
+      <img className="agnes" src="agnes.jpg" alt="agnes" />
     </div>
   );
 }

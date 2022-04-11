@@ -4,7 +4,6 @@ import './home.scss';
 function Home() {
   return (
     <div className="home-container">
-      <h1 className="title-entrance">Agnès Vandorme</h1>
       <img className="photo-pinceaux" src="artistic-2230433_1920.jpg" alt="pinceaux" />
       <nav className=" link-container">
         <a className="biography-link" href="biography">Biography</a>

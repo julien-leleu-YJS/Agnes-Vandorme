@@ -7,6 +7,7 @@ import Header from '../header/Header';
 import Footer from '../footer/Footer';
 import Home from '../../pages/home/Home';
 import Biography from '../../pages/biography/Biography';
+import ArtistWebGalery from '../../pages/artist-web-galery/ArtistWebGalery';
 import './App.css';
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
       <Routes>
         <Route path="/home" element={<Home />} />
         <Route path="/biography" element={<Biography />} />
-        <Route path="/artist-web-galery" element="artist-web-galery" />
+        <Route path="/artist-web-galery" element={<ArtistWebGalery />} />
         <Route path="/work-art" element="work-art" />
         <Route path="/contact" element="contact" />
         <Route path="/special-mentions" element="special-mentions" />
