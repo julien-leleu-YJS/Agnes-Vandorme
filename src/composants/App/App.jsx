@@ -6,6 +6,7 @@ import Entrance from '../../pages/entrance/Entrance';
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
 import Home from '../../pages/home/Home';
+import Biography from '../../pages/biography/Biography';
 import './App.css';
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
       {window.location.pathname !== '/' && <Header />}
       <Routes>
         <Route path="/home" element={<Home />} />
-        <Route path="/biography" element="biography" />
+        <Route path="/biography" element={<Biography />} />
         <Route path="/artist-web-galery" element="artist-web-galery" />
         <Route path="/work-art" element="work-art" />
         <Route path="/contact" element="contact" />
