@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playfair+Display&display=swap");
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 10%; // the desired height
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #b99a84;
+}
+.title-home {
+  font-family: "Libre Baskerville", serif;
+  font-size: 1.2rem;
+  color: #ece0d4;
+  margin-left: 3px;
+}
+.menu-burger {
+  color: #ece0d4;
+  font-size: 0.8rem;
+}
