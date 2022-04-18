@@ -8,6 +8,7 @@ import Footer from '../footer/Footer';
 import Home from '../../pages/home/Home';
 import Biography from '../../pages/biography/Biography';
 import ArtistWebGalery from '../../pages/artist-web-galery/ArtistWebGalery';
+import Contact from '../../pages/contact/Contact';
 import './App.css';
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
         <Route path="/biography" element={<Biography />} />
         <Route path="/artist-web-galery" element={<ArtistWebGalery />} />
         <Route path="/work-art" element="work-art" />
-        <Route path="/contact" element="contact" />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/special-mentions" element="special-mentions" />
       </Routes>
       {window.location.pathname !== '/' && <Footer />}
