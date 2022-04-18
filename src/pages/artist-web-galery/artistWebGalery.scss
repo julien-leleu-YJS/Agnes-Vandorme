@@ -8,8 +8,29 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .title-galery {
   font-size: 1.5rem;
   color: #b99a84;
+  margin-bottom: 5%;
+}
+.title-tableaux {
+  margin-top: 5%;
+}
+.cinq-terres {
+  max-width: 100%;
+  margin-top: 5%;
+}
+.ananas {
+  max-width: 100%;
+  margin-top: 5%;
+}
+.big-bang-flower {
+  max-width: 100%;
+  margin-top: 5%;
+}
+.bouc {
+  max-width: 100%;
+  margin-top: 5%;
 }
