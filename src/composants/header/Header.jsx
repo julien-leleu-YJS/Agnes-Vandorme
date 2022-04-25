@@ -7,7 +7,7 @@ function Header() {
       <h1 className="title-home">
         Agnès Vandorme
       </h1>
-      <h2 className="menu-burger">menu burger</h2>
+      <a className="link-acceuil" href="home">Acceuil</a>
     </div>
   );
 }
