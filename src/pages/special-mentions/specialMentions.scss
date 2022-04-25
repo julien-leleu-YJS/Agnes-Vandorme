@@ -1,0 +1,40 @@
+.mentions-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: #b99a84;
+}
+.title-mentions {
+  font-size: 1.3rem;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.atelier-agnes {
+  margin-top: 15%;
+  margin-bottom: 5%;
+}
+.title-atelier {
+  margin-bottom: 3%;
+}
+.link-atelier {
+  text-decoration: none;
+  color: black;
+}
+.dev-container {
+  margin-top: 30%;
+}
+.title-dev {
+  margin-bottom: 3%;
+}
+.mail-dev {
+  color: black;
+}
+.thanks-container {
+  margin-top: 35%;
+}
+
+.title-thanks {
+  font-family: "Beau Rivage", cursive;
+  font-size: 1.4rem;
+  margin-bottom: 6%;
+}
