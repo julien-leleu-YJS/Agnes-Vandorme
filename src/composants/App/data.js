@@ -1,0 +1,30 @@
+export default [
+  {
+    id: 1,
+    title: '#01 Demi-pause',
+    src: '5 terre.jpg',
+    alt: "description du tableaux à l'huile : une vue des 5 terre en italie , entre mer et terre , entre habitation atypique et rocher naturel.",
+    description: 'lorem ipsum',
+    slug: '5-terre',
+    audio: 'pan001.mp4',
+    classname: 'cinq-terres',
+  },
+  {
+    id: 2,
+    title: '#02 Tempo',
+    src: 'ananas.jpg',
+    alt: 'description du tableaux à l\'huile : un ananas en gros plan , l\'effet sur la toile a été vieilli . les couleurs bleu et verte sont dominantes',
+    slug: 'ananas',
+    audio: 'guitare.mp4',
+    classname: 'ananas',
+  },
+  {
+    id: 3,
+    title: '#03 Symphonie',
+    src: 'big bang flower.jpg',
+    alt: 'description du tableau à l\'huile : un œuvre abstraite , qui fait penser à une explosion de pétale de fleur pointus.',
+    slug: 'big-bang-flower',
+    audio: 'asudhfasdfudshf.mp4',
+    classname: 'big-bang-flower',
+  },
+];
