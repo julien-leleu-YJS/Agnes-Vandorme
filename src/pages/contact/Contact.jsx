@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React from 'react';
 import './contact.scss';
-
+// utiliser ce plug-in pour le formulaire de contact https://formspree.io/login
 function Contact() {
   return (
     <div className="contact-container">
