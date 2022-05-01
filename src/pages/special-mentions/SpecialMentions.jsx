@@ -13,6 +13,10 @@ function SpecialMentions() {
         <h2 className="title-dev">Besoin de se digitaliser ?</h2>
         <h3 className="mail-dev">jleleu.dev@gmail.com</h3>
       </div>
+      <div className="hang-container">
+        <h2 className="title-hang">Musiques : Hang </h2>
+        <a className="link-hang" href="https://hangmassive.com/">Découvrir Hang-Massive</a>
+      </div>
       <div className="thanks-container">
         <h2 className="title-thanks">Merci de votre visite</h2>
 

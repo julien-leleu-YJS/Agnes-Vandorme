@@ -8,7 +8,7 @@ function Home() {
       <nav className=" link-container">
         <a className="biography-link" href="biography">Biography</a>
         <a className="web-galery-link" href="artist-web-galery">Artist Web Galery</a>
-        <a className="contact-link" href="contact">Contact</a>
+        <a className="contact-link" href="special-mentions">Mentions spécials</a>
       </nav>
     </div>
   );

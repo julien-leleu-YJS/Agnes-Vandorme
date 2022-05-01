@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   color: #b99a84;
+  font-family: "Libre Baskerville", serif;
 }
 .title-mentions {
   font-size: 1.3rem;
@@ -21,7 +22,7 @@
   color: black;
 }
 .dev-container {
-  margin-top: 30%;
+  margin-top: 15%;
 }
 .title-dev {
   margin-bottom: 3%;
@@ -29,12 +30,20 @@
 .mail-dev {
   color: black;
 }
+.title-hang {
+  margin-top: 15%;
+  margin-bottom: 3%;
+}
+.link-hang {
+  text-decoration: none;
+  color: black;
+}
 .thanks-container {
-  margin-top: 35%;
+  margin-top: 15%;
 }
 
 .title-thanks {
   font-family: "Beau Rivage", cursive;
   font-size: 1.4rem;
-  margin-bottom: 6%;
+  margin-bottom: 13%;
 }

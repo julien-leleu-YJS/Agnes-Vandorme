@@ -17,6 +17,7 @@ function ArtistWebGalery({ data, setTableauData }) {
         />
         {/* ici la redirection qui affiche le tableau cliké sur work art */}
         <Link
+          className="link-tableau"
           to="/work-art"
           onClick={() => setTableauData(tableauData)}
         >

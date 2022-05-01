@@ -11,13 +11,16 @@ function WorkArt({ tableau }) {
     tableau.id
       ? (
         <div className="home-container">
-          <h1>{tableau.title}</h1>
-          <h2>{tableau.description}</h2>
-          <img className="pics-work" src={tableau.src} alt="test" />
-          <div>
-            {tableau.audio}
-            {' '}
+          <div className="groupe-title">
+            <h1 className="title-work">{tableau.title}</h1>
+            <div className="audio">
+              {tableau.audio}
+              {' '}
+            </div>
           </div>
+          <img className="pics-work" src={tableau.src} alt={tableau.alt} />
+          <h2 className="description-work">{tableau.description}</h2>
+
         </div>
       )
       // le navigate permet la redirection forcé vers
