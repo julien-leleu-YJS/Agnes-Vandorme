@@ -31,7 +31,7 @@ function Contact() {
             </label>
 
           </fieldset>
-          <button type="submit">Submit</button>
+          <button className="submit" type="submit">Envoyer</button>
 
         </form>
       </div>

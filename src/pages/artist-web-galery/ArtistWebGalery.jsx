@@ -21,9 +21,10 @@ function ArtistWebGalery({ data, setTableauData }) {
           to="/work-art"
           onClick={() => setTableauData(tableauData)}
         >
-          click me
+          Propriétés
 
         </Link>
+        <div className="space"> </div>
       </div>
     ))
   );

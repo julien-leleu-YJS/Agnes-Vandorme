@@ -1,7 +1,30 @@
+.contact-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 .title-contact {
   margin-top: 10%;
+  color: #b99a84;
+  font-size: 1.2rem;
 }
 .form-container {
   margin-top: 10%;
   margin-bottom: 50.5%;
+  border: 1px solid black;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #b99a84;
+  padding: 3%;
+}
+.title-input {
+  margin-top: 5%;
+}
+.submit {
+  margin-top: 3%;
+  background-color: #b99a84;
+  border: 1px solid #ece0d4;
+  padding: 2%;
+  color: #ece0d4;
+  font-weight: bold;
 }
