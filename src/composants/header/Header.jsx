@@ -1,4 +1,5 @@
 import React from 'react';
+import CustomizedMenus from '../menuBurger/Burger';
 import './header.scss';
 
 function Header() {
@@ -7,7 +8,7 @@ function Header() {
       <h1 className="title-home">
         Agnès Vandorme
       </h1>
-      <a className="link-acceuil" href="home">Acceuil</a>
+      <CustomizedMenus />
     </div>
   );
 }
