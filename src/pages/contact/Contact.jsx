@@ -21,6 +21,10 @@ function Contact() {
           <p className="title-input">Pénom</p>
           <input className="input" name="surname" />
         </label>
+        <label>
+          <p className="title-input">Numéro d&#39;Oeuvre(s)</p>
+          <input className="input" name="number" />
+        </label>
 
         <label className="title-input" htmlFor="email">
           Email Address
