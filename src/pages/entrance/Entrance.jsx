@@ -1,6 +1,7 @@
 import React from 'react';
 import Flower from '../../composants/flower/Flower';
 import './entrance.scss';
+import './tabletteEntrance.scss';
 
 function Entrance() {
   return (

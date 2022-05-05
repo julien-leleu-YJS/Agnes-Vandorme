@@ -17,6 +17,10 @@ function SpecialMentions() {
         <h2 className="title-hang">Musiques : Hang </h2>
         <a className="link-hang" href="https://hangmassive.com/">Découvrir Hang-Massive</a>
       </div>
+      <div className="cassie-container">
+        <h2 className="title-cassie">Découvrir Cassie Evans </h2>
+        <a className="link-hang" href="https://codepen.io/cassie-codes">Cassie Evans</a>
+      </div>
       <div className="thanks-container">
         <h2 className="title-thanks">Merci de votre visite</h2>
 

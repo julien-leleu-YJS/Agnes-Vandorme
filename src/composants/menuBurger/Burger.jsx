@@ -37,11 +37,11 @@ function Burger() {
       >
         <MenuItem onClick={handleClose}>
           {' '}
-          <a className="home-burger" href="home">Home</a>
+          <a className="home-burger" href="home">Acceuil</a>
         </MenuItem>
         <MenuItem onClick={handleClose}>
           {' '}
-          <a className="biography-link" href="biography">Biography</a>
+          <a className="biography-link" href="biography">Biographie</a>
         </MenuItem>
         <MenuItem onClick={handleClose}>
           {' '}
@@ -50,7 +50,7 @@ function Burger() {
 
         <MenuItem onClick={handleClose}>
           {' '}
-          <a className="contact-link" href="special-mentions">Mentions spécials</a>
+          <a className="contact-link" href="special-mentions">Mentions spéciales</a>
         </MenuItem>
         <MenuItem onClick={handleClose}>
           {' '}

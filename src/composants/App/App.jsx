@@ -37,6 +37,7 @@ function App() {
         <Route path="/special-mentions" element={<SpecialMentions />} />
       </Routes>
       {window.location.pathname !== '/' && <Footer />}
+
     </div>
   );
 }

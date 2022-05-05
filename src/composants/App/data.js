@@ -55,7 +55,7 @@ export default [
 
   {
     id: 6,
-    title: '#06 Choeurs',
+    title: '#06 Chœur',
     src: 'agave.jpg',
     alt: 'description du tableau à l&#39huile : un groupe d&#39agaves montant vers un ciel bleu.',
     description: 'La valeur de Choeur est de 1125€ pour une mesure de 60 x 81',
