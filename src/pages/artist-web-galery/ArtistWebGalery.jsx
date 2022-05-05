@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './artistWebGalery.scss';
+import './tablette-artist-web-galery.scss';
 // le "link" de react router , permet de créer des chemin vers d'autre page
 import { Link } from 'react-router-dom';
 

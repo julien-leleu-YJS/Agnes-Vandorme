@@ -2,6 +2,7 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import './contact.scss';
+import './tabletteContact.scss';
 // utiliser ce plug-in pour le formulaire de contact https://formspree.io/login
 
 function Contact() {
@@ -41,6 +42,7 @@ function Contact() {
         />
         <label className="title-input" htmlFor="message">
           Votre message
+
         </label>
         <textarea
           id="message"
