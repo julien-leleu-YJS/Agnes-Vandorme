@@ -1,5 +1,6 @@
 import React from 'react';
 import './biography.scss';
+import './tabletteBiography.scss';
 
 function Biography() {
   return (

@@ -1,6 +1,7 @@
 import React from 'react';
 import CustomizedMenus from '../menuBurger/Burger';
 import './header.scss';
+import './tabletteHeader.scss';
 
 function Header() {
   return (
