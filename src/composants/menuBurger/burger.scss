@@ -1,13 +1,16 @@
 .burger-container {
   background-color: #b99a84;
   border: 1px solid #ece0d4;
+  width: 15%;
+  display: flex;
+  justify-content: center;
 }
 .burger-button {
   color: #ece0d4;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   font-weight: 800;
+  font-family: "Libre Baskerville", serif;
 }
-
 .home-burger {
   margin-top: 10%;
   margin-bottom: 9%;

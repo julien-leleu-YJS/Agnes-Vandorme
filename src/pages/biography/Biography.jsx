@@ -4,6 +4,7 @@ import './biography.scss';
 function Biography() {
   return (
     <div className="biography-container">
+      <h2 className="title-page-biography">biography</h2>
       <h1 className="title-biography">Agnès Vandorme</h1>
       <p className="text-biography">
         Agnès Vandorme a scruté le monde et capturé des images qui ont

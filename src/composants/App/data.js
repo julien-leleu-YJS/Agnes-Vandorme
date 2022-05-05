@@ -7,7 +7,7 @@ export default [
     alt: 'description du tableaux à l&#39huile : une vue des 5 terre en italie , entre mer et terre , entre habitation atypique et rocher naturel.',
     description: 'La valeur de Demi-pause est de 900€ pour une mesure de 60 x 73',
     slug: '5-terre',
-    audio: 'pan001.mp4',
+    audio: 'hang01.mp3',
     classname: 'cinq-terres',
   },
   {

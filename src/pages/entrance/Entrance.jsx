@@ -1,4 +1,5 @@
 import React from 'react';
+import Flower from '../../composants/flower/Flower';
 import './entrance.scss';
 
 function Entrance() {
@@ -8,7 +9,9 @@ function Entrance() {
         <h1 className="title-entrance">Agnès Vandorme</h1>
         <div className="separation">  </div>
         <h2 className="second-title-entrance">Artist Web Galery</h2>
-        <a className="enter-button" href="home">enter</a>
+        <Flower />
+        <a className="enter-button" href="home">ENTRÉE</a>
+
       </div>
     </div>
   );

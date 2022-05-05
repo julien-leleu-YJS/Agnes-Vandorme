@@ -8,6 +8,7 @@ function ArtistWebGalery({ data, setTableauData }) {
   return (
     // ici on boucle sur les data grace au ".map"
     data.map((tableauData) => (
+
       <div className="image-container" key={tableauData.id}>
         <h2 className="title-tableaux">{tableauData.title}</h2>
         <img

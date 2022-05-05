@@ -7,6 +7,7 @@ body {
 .entrance-container {
   display: flex;
   justify-content: center;
+  margin-top: 20%;
 }
 .title-entrance {
   display: flex;
@@ -28,7 +29,7 @@ body {
   width: 300px;
   color: #b99a84;
   background-color: #ece0d4;
-  margin-top: 150px;
+  margin-top: 1px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -41,9 +42,10 @@ body {
 }
 .enter-button {
   font-family: "Libre Baskerville", serif;
+  font-size: 0.8rem;
   font-weight: 800;
   color: #b99a84;
-  margin-top: 20%;
+  margin-top: 15%;
   background-color: #ece0d4;
   border: 1px solid #b99a84;
   width: 50%;
