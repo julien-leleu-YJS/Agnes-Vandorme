@@ -9,8 +9,10 @@ function Footer() {
     <div className="footer-container">
 
       <nav className="mentions-container">
-        <a className="mentions-button" href="contact">Contact</a>
-
+        { /* afficher un élément ou pas suivant les routes */}
+        {window.location.pathname === '/contact'
+          ? <a className="mentions-button" href="home">Home</a>
+          : <a className="mentions-button" href="contact">Contact</a> }
       </nav>
     </div>
   );

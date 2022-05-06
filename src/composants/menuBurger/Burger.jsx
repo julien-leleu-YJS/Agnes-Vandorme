@@ -39,24 +39,24 @@ function Burger() {
       >
         <MenuItem onClick={handleClose}>
           {' '}
-          <a className="home-burger" href="home">Acceuil</a>
+          <a className="link-burger" href="home">Acceuil</a>
         </MenuItem>
         <MenuItem onClick={handleClose}>
           {' '}
-          <a className="biography-link" href="biography">Biographie</a>
+          <a className="link-burger" href="biography">Biographie</a>
         </MenuItem>
         <MenuItem onClick={handleClose}>
           {' '}
-          <a className="web-galery-link" href="artist-web-galery">Artist Web Galery</a>
+          <a className="link-burger" href="artist-web-galery">Artist Web Galery</a>
         </MenuItem>
 
         <MenuItem onClick={handleClose}>
           {' '}
-          <a className="contact-link" href="special-mentions">Mentions spéciales</a>
+          <a className="link-burger" href="special-mentions">Mentions spéciales</a>
         </MenuItem>
         <MenuItem onClick={handleClose}>
           {' '}
-          <a className="contact-burger" href="contact">Contact</a>
+          <a className="link-burger" href="contact">Contact</a>
         </MenuItem>
       </Menu>
     </div>
