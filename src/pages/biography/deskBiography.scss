@@ -1,0 +1,32 @@
+@media screen and (min-width: 1024px) {
+  .biography-container {
+    margin-top: 0%;
+    color: #b99a84;
+    font-family: "Libre Baskerville", serif;
+    margin-bottom: 20%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .title-page-biography {
+    margin-bottom: 5%;
+    font-size: 0.6rem;
+    margin-top: -2%;
+  }
+  .title-biography {
+    font-size: 1rem;
+    margin-bottom: 2.5%;
+    margin-top: 2.5%;
+  }
+  .text-biography {
+    font-size: 0.7rem;
+    line-height: 110%;
+    margin-top: -2%;
+    margin-bottom: 2%;
+  }
+  .agnes {
+    width: 30%;
+    height: 15%;
+    margin-top: 1%;
+    border: 2px solid black;
+  }
+}

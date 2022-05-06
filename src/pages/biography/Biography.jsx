@@ -1,6 +1,7 @@
 import React from 'react';
 import './biography.scss';
 import './tabletteBiography.scss';
+import './deskBiography.scss';
 
 function Biography() {
   return (

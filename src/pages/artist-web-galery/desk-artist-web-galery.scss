@@ -1,0 +1,31 @@
+@media screen and (min-width: 1024px) {
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .title-tableaux {
+    margin-top: 5%;
+    margin-bottom: -01%;
+    color: #b99a84;
+    font-size: 1.1rem;
+  }
+  .cinq-terres {
+    width: 30%;
+    margin-top: 03%;
+    border: 2px solid black;
+    margin-bottom: 01%;
+  }
+  .link-tableau {
+    text-decoration: none;
+    color: #b99a84;
+    border: 1px solid #b99a84;
+    padding-bottom: 0.2%;
+    padding-top: 0.3%;
+    width: 15%;
+    padding-left: 0%;
+    padding-right: 0%;
+    font-size: 0.5rem;
+  }
+}
