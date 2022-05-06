@@ -1,11 +1,12 @@
 import React from 'react';
 import './home.scss';
 import './tabletteHome.scss';
+import './deskHome.scss';
 
 function Home() {
   return (
     <div className="home-container">
-      <img className="photo-pinceaux" src="artistic-2230433_1920.jpg" alt="pinceaux" />
+      <img className="photo-pinceaux" src="pinceaux(cut).jpg" alt="pinceaux" />
       <div className=" link-container">
         <a className="biography-link" href="biography">Biographie</a>
         <a className="web-galery-link" href="artist-web-galery">Artist Web Galery</a>

@@ -2,6 +2,7 @@ import React from 'react';
 import Flower from '../../composants/flower/Flower';
 import './entrance.scss';
 import './tabletteEntrance.scss';
+import './deskEntrance.scss';
 
 function Entrance() {
   return (

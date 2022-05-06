@@ -1,39 +1,39 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .photo-pinceaux {
-    max-width: 100%;
-    margin-top: 3%;
+    width: 100%;
+    margin-top: 2%;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
   }
   .link-container {
     display: flex;
-    align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-evenly;
   }
   .biography-link {
-    margin-top: 20%;
-    margin-bottom: 7.8%;
+    margin-top: 8%;
+    margin-bottom: 9.05%;
     text-decoration: none;
     color: #b99a84;
     font-family: "Libre Baskerville", serif;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   .web-galery-link {
-    font-size: 1.4rem;
-    margin-top: 15%;
-    margin-bottom: 7%;
+    font-size: 1.2rem;
+    margin-top: 8%;
+    margin-bottom: 9.05%;
+    margin-left: 8%;
     text-decoration: none;
     color: #b99a84;
     font-family: "Libre Baskerville", serif;
   }
   .contact-link {
-    margin-top: 15%;
-    margin-bottom: 18.5%;
+    margin-top: 8%;
+    margin-bottom: 9.05%;
     text-decoration: none;
     color: #b99a84;
     font-family: "Libre Baskerville", serif;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 }

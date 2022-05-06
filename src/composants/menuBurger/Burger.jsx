@@ -11,6 +11,7 @@ import MenuItem from '@material-ui/core/MenuItem';
 /* import SendIcon from '@material-ui/icons/Send'; */
 import './burger.scss';
 import './tabletteMenu.scss';
+import './deskBurger.scss';
 
 function Burger() {
   const [anchorEl, setAnchorEl] = React.useState(null);

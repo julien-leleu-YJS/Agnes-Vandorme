@@ -1,0 +1,11 @@
+@media screen and (min-width: 1024px) {
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    height: 70px; // the desired height
+  }
+  .title-home {
+    font-size: 1.3rem;
+    margin-left: 10%;
+  }
+}
