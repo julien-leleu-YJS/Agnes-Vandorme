@@ -1,5 +1,6 @@
 import React from 'react';
 import './specialMentions.scss';
+import './tabletteMentions.scss';
 
 function SpecialMentions() {
   return (
@@ -18,8 +19,8 @@ function SpecialMentions() {
         <a className="link-hang" href="https://hangmassive.com/">Découvrir Hang-Massive</a>
       </div>
       <div className="cassie-container">
-        <h2 className="title-cassie">Découvrir Cassie Evans </h2>
-        <a className="link-hang" href="https://codepen.io/cassie-codes">Cassie Evans</a>
+        <h2 className="title-cassie">Découvrir les design de Cassie Evans </h2>
+        <a className="link-evans" href="https://codepen.io/cassie-codes">Cassie Evans</a>
       </div>
       <div className="thanks-container">
         <h2 className="title-thanks">Merci de votre visite</h2>

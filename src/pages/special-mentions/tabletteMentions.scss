@@ -1,0 +1,31 @@
+@media screen and (min-width: 768px) {
+  .mentions-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: #b99a84;
+    font-family: "Libre Baskerville", serif;
+    font-size: 1.1rem;
+  }
+  .title-mentions {
+    font-size: 1rem;
+    margin-top: 10%;
+    margin-bottom: 15.5%;
+  }
+  .title-hang {
+    margin-top: 10%;
+    margin-bottom: 3%;
+    display: none;
+  }
+  .link-hang {
+    text-decoration: none;
+    color: black;
+    display: none;
+  }
+  .title-thanks {
+    font-family: "Beau Rivage", cursive;
+    font-size: 1.4rem;
+    margin-top: 15%;
+    margin-bottom: 11.6%;
+  }
+}
