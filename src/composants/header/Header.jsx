@@ -10,7 +10,10 @@ function Header() {
       <h1 className="title-home">
         Agnès Vandorme
       </h1>
-      <CustomizedMenus />
+      {window.location.pathname === '/home'
+        ? <div />
+        : <CustomizedMenus /> }
+
     </div>
   );
 }

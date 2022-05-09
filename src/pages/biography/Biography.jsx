@@ -29,11 +29,13 @@ function Biography() {
         instantanées.
         <br />
         <br />
-        Chaque tableau est un morceau d&#39;elle-même.
-        <br />
+
         c&#39;est dans son atelier qu&#39;elle appelle le Laboratoire,
         qu&#39;elle invente, mélange pigments et création de produit,
         pour donner naissance à des œuvres uniques .
+        <br />
+        <br />
+        Chaque tableau est un morceau d&#39;elle-même.
       </p>
       <img className="agnes" src="agnes.jpg" alt="agnes" />
     </div>
