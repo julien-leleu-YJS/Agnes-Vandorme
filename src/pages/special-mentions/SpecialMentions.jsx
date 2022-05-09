@@ -1,6 +1,7 @@
 import React from 'react';
 import './specialMentions.scss';
 import './tabletteMentions.scss';
+import './deskMentions.scss';
 
 function SpecialMentions() {
   return (

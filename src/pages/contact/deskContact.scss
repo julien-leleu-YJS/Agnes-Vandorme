@@ -1,0 +1,37 @@
+@media screen and (min-width: 1024px) {
+  .title-contact {
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+    color: #b99a84;
+    font-size: 1rem;
+  }
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1%;
+    border: 1px solid #b99a84;
+    margin-left: 36%;
+
+    background-color: #ece0d4;
+    padding: 1%;
+    color: #b99a84;
+    width: 25%;
+  }
+  .title-input {
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  .input {
+  }
+  .submit {
+    margin-top: 3%;
+    margin-bottom: 5%;
+    background-color: #b99a84;
+    border: 1px solid #ece0d4;
+    padding: 2%;
+    color: #ece0d4;
+    font-weight: bold;
+  }
+}

@@ -3,6 +3,7 @@ import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import './contact.scss';
 import './tabletteContact.scss';
+import './deskContact.scss';
 // utiliser ce plug-in pour le formulaire de contact https://formspree.io/login
 
 function Contact() {
