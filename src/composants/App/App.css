@@ -1,6 +1,6 @@
 .app {
     width: 100vw;
-    height: 100vh;
+
     text-align: center;
     /** Si jamais on veut ne veux plus le footer en fixe (visible en permanance) */
     /* display: flex;

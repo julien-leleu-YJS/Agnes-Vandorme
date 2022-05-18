@@ -3,6 +3,7 @@ import { Navigate } from 'react-router';
 import Proptypes from 'prop-types';
 import './workArt.scss';
 import './tabletteWorkArt.scss';
+import './deskWorkArt.scss';
 
 // ici la construction dynamique de la page work art
 // qui fait appelle à la pseudo bdd data.js
