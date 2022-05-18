@@ -9,7 +9,7 @@ import './deskContact.scss';
 function Contact() {
   const [state, handleSubmit] = useForm('mrgjojda');
   if (state.succeeded) {
-    return <p>Merci pour votre message !</p>;
+    return <p className="text-confirm">Merci pour votre message !</p>;
   }
   return (
     <div className="contact-container">
