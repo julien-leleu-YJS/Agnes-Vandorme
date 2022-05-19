@@ -1,7 +1,8 @@
 @media screen and (min-width: 1024px) {
   .photo-pinceaux {
     width: 100%;
-    margin-top: 5%;
+    height: 150px;
+    margin-top: 10%;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
   }
@@ -17,6 +18,7 @@
     color: #b99a84;
     font-family: "Libre Baskerville", serif;
     font-size: 1.1rem;
+    text-shadow: 1px 1px 10px #b99a84;
   }
 
   .web-galery-link {
@@ -27,6 +29,7 @@
     text-decoration: none;
     color: #b99a84;
     font-family: "Libre Baskerville", serif;
+    text-shadow: 1px 1px 10px #b99a84;
   }
   .contact-link {
     margin-top: 8%;
@@ -35,5 +38,6 @@
     color: #b99a84;
     font-family: "Libre Baskerville", serif;
     font-size: 1.1rem;
+    text-shadow: 1px 1px 10px #b99a84;
   }
 }
