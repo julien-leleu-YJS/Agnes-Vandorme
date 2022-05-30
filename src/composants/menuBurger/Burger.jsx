@@ -39,7 +39,7 @@ function Burger() {
       >
         <MenuItem onClick={handleClose}>
           {' '}
-          <a className="link-burger" href="home">Acceuil</a>
+          <a className="link-burger" href="home">Accueil</a>
         </MenuItem>
         <MenuItem onClick={handleClose}>
           {' '}

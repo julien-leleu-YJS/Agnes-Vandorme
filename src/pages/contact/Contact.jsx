@@ -8,12 +8,10 @@ import './deskContact.scss';
 
 function Contact() {
   const [state, handleSubmit] = useForm('mrgjojda');
-  if (state.succeeded) {
-    return <p className="text-confirm">Merci pour votre message !</p>;
-  }
   return (
     <div className="contact-container">
       <h1 className="title-contact">Contact</h1>
+      { !state.succeeded && (
       <form className="form-container" onSubmit={handleSubmit}>
         <label>
           <p className="title-input">Nom</p>
@@ -28,8 +26,8 @@ function Contact() {
           <input className="input" name="number" />
         </label>
 
-        <label className="title-input" htmlFor="email">
-          Email Address
+        <label className="input" htmlFor="email">
+          <p className="title-input"> Email Address</p>
         </label>
         <input
           id="email"
@@ -41,8 +39,8 @@ function Contact() {
           field="email"
           errors={state.errors}
         />
-        <label className="title-input" htmlFor="message">
-          Votre message
+        <label className="input" htmlFor="message">
+          <p className="title-input">Votre message</p>
 
         </label>
         <textarea
@@ -54,10 +52,15 @@ function Contact() {
           field="message"
           errors={state.errors}
         />
-        <button className="submit" type="submit" disabled={state.submitting}>
+        <button className="submit-button" type="submit" disabled={state.submitting}>
           Envoyer
         </button>
       </form>
+      ) }
+      { state.succeeded && (
+        <p className="text-confirm">Merci pour votre message !</p>
+      ) }
+
     </div>
   );
 }
