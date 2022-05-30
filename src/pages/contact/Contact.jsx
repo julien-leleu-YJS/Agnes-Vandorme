@@ -4,7 +4,6 @@ import { useForm, ValidationError } from '@formspree/react';
 import './contact.scss';
 import './tabletteContact.scss';
 import './deskContact.scss';
-// utiliser ce plug-in pour le formulaire de contact https://formspree.io/login
 
 function Contact() {
   const [state, handleSubmit] = useForm('mrgjojda');
@@ -25,7 +24,6 @@ function Contact() {
           <p className="title-input">Numéro d&#39;Oeuvre(s)</p>
           <input className="input" name="number" />
         </label>
-
         <label className="input" htmlFor="email">
           <p className="title-input"> Email Address</p>
         </label>
@@ -60,11 +58,8 @@ function Contact() {
       { state.succeeded && (
         <p className="text-confirm">Merci pour votre message !</p>
       ) }
-
     </div>
   );
 }
-
-Contact.propTypes = {};
 
 export default React.memo(Contact);

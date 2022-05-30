@@ -13,12 +13,9 @@ function Entrance() {
         <h2 className="second-title-entrance">Artist Web Galery</h2>
         <Flower />
         <a className="enter-button" href="home">ENTRÉE</a>
-
       </div>
     </div>
   );
 }
-
-Entrance.propTypes = {};
 
 export default React.memo(Entrance);

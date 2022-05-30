@@ -29,7 +29,6 @@ function Biography() {
         instantanées.
         <br />
         <br />
-
         c&#39;est dans son atelier qu&#39;elle appelle le Laboratoire,
         qu&#39;elle invente, mélange pigments et création de produit,
         pour donner naissance à des œuvres uniques .
@@ -41,7 +40,5 @@ function Biography() {
     </div>
   );
 }
-
-Biography.propTypes = {};
 
 export default React.memo(Biography);

@@ -25,13 +25,9 @@ function SpecialMentions() {
       </div>
       <div className="thanks-container">
         <h2 className="title-thanks">Merci de votre visite</h2>
-
       </div>
-
     </div>
   );
 }
-
-SpecialMentions.propTypes = {};
 
 export default React.memo(SpecialMentions);

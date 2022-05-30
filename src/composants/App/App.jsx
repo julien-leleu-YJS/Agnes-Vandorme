@@ -25,7 +25,6 @@ function App() {
     <div className="app">
       <Routes>
         <Route path="/" element={<Entrance />} />
-
       </Routes>
       {window.location.pathname !== '/' && <Header />}
       <Routes>
@@ -37,7 +36,6 @@ function App() {
         <Route path="/special-mentions" element={<SpecialMentions />} />
       </Routes>
       {window.location.pathname !== '/' && <Footer />}
-
     </div>
   );
 }

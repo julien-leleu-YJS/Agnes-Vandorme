@@ -16,6 +16,4 @@ function Home() {
   );
 }
 
-Home.propTypes = {};
-
 export default React.memo(Home);

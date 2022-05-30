@@ -13,11 +13,8 @@ function Header() {
       {window.location.pathname === '/home'
         ? <div />
         : <CustomizedMenus /> }
-
     </div>
   );
 }
-
-Header.propTypes = {};
 
 export default React.memo(Header);
