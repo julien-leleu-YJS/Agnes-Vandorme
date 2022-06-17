@@ -83,7 +83,7 @@ export default [
     description: 'La valeur de Sticks est de 1800€ pour une mesure de 100 x 80',
     slug: 'sticks',
     audio: 'asudhfasdfudshf.mp4',
-    classname: 'big-bang-flower',
+    classname: 'lac-et-lotus',
   },
 
   {
@@ -94,7 +94,7 @@ export default [
     description: 'La valeur de Pause est de 1800€ pour une mesure de 60 x 120',
     slug: 'pause',
     audio: 'asudhfasdfudshf.mp4',
-    classname: 'big-bang-flower',
+    classname: 'le-sage',
   },
 
   {
@@ -105,7 +105,7 @@ export default [
     description: 'La valeur de Partition est de 360€ pour une mesure de 46 x 33',
     slug: 'Partition',
     audio: 'asudhfasdfudshf.mp4',
-    classname: 'big-bang-flower',
+    classname: 'lotus',
   },
 
   {
@@ -116,7 +116,7 @@ export default [
     description: 'La valeur de Chorale est de 1800€ pour une mesure de 60 x 120',
     slug: 'chorale',
     audio: 'asudhfasdfudshf.mp4',
-    classname: 'big-bang-flower',
+    classname: 'meduse',
   },
 
   {
@@ -127,7 +127,7 @@ export default [
     description: 'La valeur de Cacophonie est de 1350€ pour une mesure de 50 x 100',
     slug: 'Cacophonie',
     audio: 'asudhfasdfudshf.mp4',
-    classname: 'big-bang-flower',
+    classname: 'mouton',
   },
 
   {
@@ -138,7 +138,7 @@ export default [
     description: 'La valeur de Berçeuse est de 1800€ pour une mesure de 80 x 99',
     slug: 'berçeuse',
     audio: 'asudhfasdfudshf.mp4',
-    classname: 'big-bang-flower',
+    classname: 'mouton-2',
   },
 
   {
@@ -149,7 +149,7 @@ export default [
     description: 'La valeur de Silence est de 1350€ pour une mesure de 80 x 80',
     slug: 'silence',
     audio: 'asudhfasdfudshf.mp4',
-    classname: 'big-bang-flower',
+    classname: 'poisson-rouge',
   },
 
   {
@@ -160,7 +160,7 @@ export default [
     description: 'La valeur de Ballade est de 3600€ pour une mesure de 100 x 150',
     slug: 'ballade',
     audio: 'asudhfasdfudshf.mp4',
-    classname: 'big-bang-flower',
+    classname: 'venise',
   },
 
   {
@@ -171,6 +171,6 @@ export default [
     description: 'La valeur de Crescendo est de 540€ pour une mesure de 30 x 60',
     slug: 'crescendo',
     audio: 'asudhfasdfudshf.mp4',
-    classname: 'big-bang-flower',
+    classname: 'village',
   },
 ];
