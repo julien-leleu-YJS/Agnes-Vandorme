@@ -7,7 +7,9 @@ import { Link } from 'react-router-dom';
 
 function ArtistWebGalery({ data, setTableauData }) {
   return (
+
     data.map((tableauData) => (
+
       <div className="image-container" key={tableauData.id}>
         <h2 className="title-tableaux">{tableauData.title}</h2>
         <img
@@ -23,8 +25,11 @@ function ArtistWebGalery({ data, setTableauData }) {
           Propriétés
         </Link>
         <div className="space"> </div>
+
       </div>
+
     ))
+
   );
 }
 
