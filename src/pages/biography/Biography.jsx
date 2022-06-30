@@ -9,32 +9,21 @@ function Biography() {
       <h2 className="title-page-biography">biographie</h2>
       <h1 className="title-biography">Agnès Vandorme</h1>
       <p className="text-biography">
-        Agnès Vandorme a scruté le monde et capturé des images qui ont
-        déclenché une sensibilité, genèse de sa créativité .
+        Depuis près de 25 ans, l’atelier d’arts d’Agnès Vandorme, situé à Ollioules, vous accueille
+        pour un voyage haut en couleurs,
         <br />
+        où les œuvres témoignent des rencontres, souvenirs,
+        expériences…vécus lors des différentes excursions menées par l’artiste.
         <br />
-        sensible aux sons et à la musique autant qu&#39;à la peinture,
-        elle trouvera
-        le point de fusion entre couleur, son , toucher .
+        Chaque tableau vibre au son de son histoire et révèle une émotion, une nostalgie, une
+        découverte vécues.
         <br />
+        C&#39;est donc dans son atelier qu&#39;elle appelle «le Laboratoire»,
+        qu&#39;Agnès Vandorme choisit avec
+        soin ses pigments, ses médiums…
         <br />
-        Depuis 40 ans, la vibration des couleurs à travers
-        l&#39;enrichissement personnel grâce à une immersion dans
-        différentes cultures comme Tahiti, le Maroc, Nouméa,
-        lui ont permis d&#39;être une coloriste hors pair.
-        <br />
-        <br />
-        Les échanges et découvertes lui ont permis une évolution
-        artistique pour mêler ressenti et expression
-        instantanées.
-        <br />
-        <br />
-        c&#39;est dans son atelier qu&#39;elle appelle le Laboratoire,
-        qu&#39;elle invente, mélange pigments et création de produit,
-        pour donner naissance à des œuvres uniques .
-        <br />
-        <br />
-        Chaque tableau est un morceau d&#39;elle-même.
+        dans le but de donner naissance à des œuvres uniques et
+        partager ainsi une partie de son histoire.
       </p>
       <img className="agnes" src="agnes.jpg" alt="agnes" />
     </div>
