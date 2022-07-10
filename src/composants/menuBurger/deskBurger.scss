@@ -1,0 +1,34 @@
+@media screen and (min-width: 1024px) {
+  .burger-container {
+    border: 1px solid #ece0d4;
+    margin-right: 10%;
+    width: 6%;
+    height: 35%;
+  }
+  .burger-button {
+    color: #ece0d4;
+    font-size: 0.5rem;
+    font-weight: 100;
+    font-family: "Libre Baskerville", serif;
+  }
+  .link-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .link-burger {
+    margin-top: 11%;
+    margin-bottom: 10%;
+    text-decoration: none;
+    color: #b99a84;
+    font-family: "Libre Baskerville", serif;
+    font-size: 0.8rem;
+    border: 1px solid #ece0d4;
+    padding: 3%;
+    box-shadow: 8px 8px 12px #ece0d4;
+    margin-right: 10px;
+    background-color: #ece0d4;
+    border-radius: 50%;
+  }
+}

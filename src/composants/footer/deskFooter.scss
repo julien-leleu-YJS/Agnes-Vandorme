@@ -1,0 +1,14 @@
+@media screen and (min-width: 1024px) {
+  .footer-container {
+    height: 35px; // the desired height
+    bottom: 0;
+    left: 0;
+  }
+  .mentions-button {
+    font-size: 0.7rem;
+    border: 1px solid #ece0d4;
+    width: 110%;
+    height: 20px;
+    padding: 2%;
+  }
+}

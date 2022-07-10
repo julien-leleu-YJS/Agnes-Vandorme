@@ -1,0 +1,42 @@
+@media screen and (min-width: 768px) {
+  .photo-pinceaux {
+    width: 100%;
+    margin-top: 15%;
+    height: 150px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+  }
+  .link-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .biography-link {
+    margin-top: 20%;
+    margin-bottom: 7.8%;
+    text-decoration: none;
+    color: #b99a84;
+    font-family: "Libre Baskerville", serif;
+    font-size: 1.4rem;
+    text-shadow: 1px 1px 10px #b99a84;
+  }
+  .web-galery-link {
+    font-size: 1.4rem;
+    margin-top: 15%;
+    margin-bottom: 7%;
+    text-decoration: none;
+    color: #b99a84;
+    font-family: "Libre Baskerville", serif;
+    text-shadow: 1px 1px 10px #b99a84;
+  }
+  .contact-link {
+    margin-top: 15%;
+    margin-bottom: 18.5%;
+    text-decoration: none;
+    color: #b99a84;
+    font-family: "Libre Baskerville", serif;
+    font-size: 1.4rem;
+    text-shadow: 1px 1px 10px #b99a84;
+  }
+}

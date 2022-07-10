@@ -1,0 +1,8 @@
+.app {
+    width: 100%;
+
+    text-align: center;
+    /** Si jamais on veut ne veux plus le footer en fixe (visible en permanance) */
+    /* display: flex;
+    justify-content: space-between; */
+}

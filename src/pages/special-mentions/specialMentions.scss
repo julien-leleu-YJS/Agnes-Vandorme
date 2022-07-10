@@ -1,0 +1,59 @@
+.mentions-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: #b99a84;
+  font-family: "Libre Baskerville", serif;
+  font-size: 0.9rem;
+}
+.title-mentions {
+  font-size: 0.9rem;
+  margin-top: 30%;
+  margin-bottom: 15.5%;
+}
+.atelier-agnes {
+  margin-bottom: 3%;
+}
+.title-atelier {
+  margin-bottom: 3%;
+}
+.link-atelier {
+  text-decoration: none;
+  color: black;
+}
+.dev-container {
+  margin-top: 10%;
+}
+.title-dev {
+  margin-bottom: 3%;
+}
+.mail-dev {
+  color: black;
+}
+.title-hang {
+  margin-top: 10%;
+  margin-bottom: 3%;
+  display: none;
+}
+.link-hang {
+  text-decoration: none;
+  color: black;
+  display: none;
+}
+.title-cassie {
+  margin-top: 10%;
+  margin-bottom: 3%;
+}
+.link-evans {
+  text-decoration: none;
+  color: black;
+}
+.thanks-container {
+  margin-top: 10%;
+}
+
+.title-thanks {
+  font-family: "Beau Rivage", cursive;
+  font-size: 1.4rem;
+  margin-bottom: 13%;
+}

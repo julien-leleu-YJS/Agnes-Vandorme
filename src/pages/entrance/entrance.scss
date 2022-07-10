@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playfair+Display&display=swap");
+body {
+  background-color: #ece0d4;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 500;
+}
+.entrance-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20%;
+}
+.title-entrance {
+  display: flex;
+  justify-content: center;
+  color: #b99a84;
+  font-family: "Beau Rivage", cursive;
+  font-size: 3rem;
+  margin-bottom: 5px;
+}
+.second-title-entrance {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 500;
+  color: #b99a84;
+  margin-top: 5px;
+}
+.title-container {
+  height: 100%;
+  width: 100%;
+  width: 300px;
+  color: #b99a84;
+  background-color: #ece0d4;
+  margin-top: 1px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.separation {
+  background-color: #b99a84;
+  margin-left: 50%;
+  width: 1px;
+  height: 60px;
+}
+.enter-button {
+  font-family: "Libre Baskerville", serif;
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: #b99a84;
+  margin-top: 15%;
+  background-color: #ece0d4;
+  border: 1px solid #b99a84;
+  width: 50%;
+  height: 30px;
+  margin-left: 25%;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
