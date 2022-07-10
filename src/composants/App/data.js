@@ -12,10 +12,10 @@ export default [
   },
   {
     id: 2,
-    title: '#02 Fraîcheur Chaude',
+    title: '#02 Un Ananas',
     src: 'ananas.jpg',
     alt: 'description du tableaux à l&#39huile : un ananas en gros plan , l&#39effet sur la toile a été vieilli . les couleurs bleu et verte sont dominantes',
-    description: 'La valeur de Fraîcheur Chaude est de 360€ pour une mesure de 46 x 33',
+    description: 'La valeur de Un Ananas est de 360€ pour une mesure de 46 x 33',
     slug: 'ananas',
     audio: 'guitare.mp4',
     classname: 'ananas',
